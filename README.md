@@ -1,0 +1,1 @@
+# ooc2-labs-template
