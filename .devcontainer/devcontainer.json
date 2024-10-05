@@ -1,0 +1,21 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
+{
+	"name": "Ubuntu",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+
+
+	"customizations": {
+		// Visual Studio Code-specific settings
+		"vscode": {
+			// List of extensions to install in the container
+			"extensions": [
+				"redhat.java", // Language Support for Java(TM) by Red Hat
+				"vscjava.vscode-java-debug", // Debugger for Java
+				"vscjava.vscode-java-dependency", // Project Manager for Java
+				"VisualStudioExptTeam.vscodeintellicode" // Visual Studio IntelliCode
+			]
+		}
+	}
+}
