@@ -13,5 +13,5 @@
       ]
     }
   },
-  "postCreateCommand": "code src/ie/atu/testpackage/HelloWorld.java"
+  "postStartCommand": "code -g ./src/ie/atu/testpackage/HelloWorld.java"
 }
