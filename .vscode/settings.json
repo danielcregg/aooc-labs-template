@@ -2,7 +2,7 @@
     "editor.minimap.enabled": false,
     "editor.inlayHints.enabled": "off",
     "files.exclude": {
-        "**/.devcontainer": true,
+        "**/.devcontainer": false,
         "**/.vscode": true,
         "**/.gitignore": true,
         "**/README.md": true,
