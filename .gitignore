@@ -1,0 +1,30 @@
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Build output
+out/
+bin/
+build/
+target/
+
+# IDE
+.idea/
+*.iml
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+*.tmp
+*.temp
+
+# Logs
+*.log
